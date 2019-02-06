@@ -1,0 +1,11 @@
+<div>
+  <div [style.width]="width + 'px'" [style.height]="height + 'px'" [ngStyle]="isImgLoaded ? null : defaultPlaceholder">
+    <img
+      #lazyImage
+      [alt]="alt"
+      [height]="height"
+      [width]="width"
+      [ngStyle]="isImgLoaded ? null : visibilityHidden"
+    />
+  </div>
+</div>
