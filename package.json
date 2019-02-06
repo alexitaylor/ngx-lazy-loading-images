@@ -1,5 +1,5 @@
 {
-  "name": "ngx-lazy-images-app",
+  "name": "ngx-lazy-loading-images-app",
   "version": "0.0.1",
   "author": "Alexi Taylor",
   "description": "An Angular library that lazy load images with IntersectionObserver API",
@@ -7,19 +7,19 @@
   "keywords": ["Angular", "Lazy Load", "Lazy Load Images", "images", "IntersectionObserver", "lazy-load", "lazy-image"],
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/alexitaylor/ngx-lazy-images"
+    "url" : "https://github.com/alexitaylor/ngx-lazy-loading-images"
   },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "start:lib": "ng build ngx-lazy-images --watch",
+    "start:lib": "ng build ngx-lazy-loading-images --watch",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build_lib": "ng build ngx-lazy-images",
-    "npm_pack": "cd dist/ngx-lazy-images && npm pack",
-    "copyfiles": "copyfiles README.md LICENSE dist/ngx-lazy-images",
+    "build_lib": "ng build ngx-lazy-loading-images",
+    "npm_pack": "cd dist/ngx-lazy-loading-images && npm pack",
+    "copyfiles": "copyfiles README.md LICENSE dist/ngx-lazy-loading-images",
     "package": "npm run build_lib && npm run copyfiles && npm run npm_pack"
   },
   "private": true,

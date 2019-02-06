@@ -19,11 +19,11 @@
       "dom"
     ],
     "paths": {
-      "ngx-lazy-images": [
-        "dist/ngx-lazy-images"
+      "ngx-lazy-loading-images": [
+        "dist/ngx-lazy-loading-images"
       ],
-      "ngx-lazy-images/*": [
-        "dist/ngx-lazy-images/*"
+      "ngx-lazy-loading-images/*": [
+        "dist/ngx-lazy-loading-images/*"
       ]
     }
   }

@@ -1,5 +1,5 @@
 {
-  "name": "ngx-lazy-images",
+  "name": "ngx-lazy-loading-images",
   "version": "0.0.1",
   "author": "Alexi Taylor",
   "description": "An Angular library that lazy load images with IntersectionObserver API",
@@ -7,7 +7,7 @@
   "keywords": ["Angular", "Lazy Load", "Lazy Load Images", "images", "IntersectionObserver", "lazy-load", "lazy-image"],
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/alexitaylor/ngx-lazy-images"
+    "url" : "https://github.com/alexitaylor/ngx-lazy-loading-images"
   },
   "peerDependencies": {
     "@angular/common": "^7.1.0",

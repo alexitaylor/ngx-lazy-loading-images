@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { NgxLazyImagesModule } from 'ngx-lazy-images';
+import { NgxLazyImagesModule } from 'ngx-lazy-loading-images';
 
 @NgModule({
   declarations: [

@@ -17,14 +17,14 @@
 * First install through npm:
 
 ```bash
-npm install --save ngx-lazy-images
+npm install --save ngx-lazy-loading-images
 ```
 
-* Import the ***ngx-lazy-images module*** into your ***apps module***:
+* Import the ***ngx-lazy-loading-images module*** into your ***apps module***:
 
 ```typescript
 import { NgModule } from '@angular/core';
-import { NgxLazyImagesModule } from 'ngx-lazy-images';
+import { NgxLazyImagesModule } from 'ngx-lazy-loading-images';
 
 @NgModule({
   imports: [

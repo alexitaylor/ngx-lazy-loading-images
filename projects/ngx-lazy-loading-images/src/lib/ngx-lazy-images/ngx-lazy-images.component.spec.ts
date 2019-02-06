@@ -2,7 +2,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { NgxLazyImagesComponent } from './ngx-lazy-images.component';
 
-describe('NgxLazyImagesComponent', () => {
+describe('NgxLazyLoadingImagesComponent', () => {
   let component: NgxLazyImagesComponent;
   let fixture: ComponentFixture<NgxLazyImagesComponent>;
 

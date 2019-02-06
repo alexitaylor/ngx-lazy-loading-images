@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { NgxLazyImagesService } from './ngx-lazy-images.service';
+import { NgxLazyImagesService } from './ngx-lazy-loading-images.service';
 
 describe('NgxLazyImagesService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
