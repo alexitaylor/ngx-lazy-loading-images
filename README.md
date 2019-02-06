@@ -111,6 +111,7 @@ Image component working similar with standard `img` tag and with the following p
     [alt]="'300X300'"
     [config]="config"
     [height]="'300'"
+    [width]="300"
   ></ngx-lazy-images>
 ```  
 
