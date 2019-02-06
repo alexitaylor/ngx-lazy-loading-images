@@ -135,13 +135,13 @@ ng build ng-surveys
 * With Angular CLI v6.2 we can use the --watch flag so that every time a file changes Angular CLI performs a partial build that emits the amended files:
 
 ```bash
-ng build ng-surveys --watch
+ng build ng-surveys --watch || npm run start:lib
 ```
 
 * Run the application project (demo app to test our library):
 
 ```bash
-ng serve
+ng serve || npm run start
 ```
 
 * Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
