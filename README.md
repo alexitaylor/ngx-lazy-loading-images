@@ -1,4 +1,4 @@
-# NgxLazyImagesApp
+# ngx-lazy-load-images
 
 > An Angular library that lazy load images with IntersectionObserver API
 
@@ -51,9 +51,7 @@ export class AppModule { }
   ></ngx-lazy-images>
 ```
 
-## API
-
-## NgxLazyImagesComponent
+### NgxLazyImagesComponent's @Inputs()
 
 #### @Input [config]
 ##### Intersection observer options
@@ -73,13 +71,13 @@ The options object passed into the `[config]` input object is passed into the `I
 
 Image component working similar with standard `img` tag and with the following props.
 
-| Input                | Type                 | Required | Description                                                                                                                                                                                                       |
-| :------------------ | :------------------- | :------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `src`               | string               |    ✓     | The image source. eg: 'https://via.placeholder.com/300x300'                                                                                                                                                        |              
-| `height`            | number               |          | Image height (Defaults to img src height)                                                                                                                                                                          |
-| `width`             | number               |          | Image width (Defaults to img src width)                                                                                                                                                                            |
-| `alt`               | string               |          | This attribute defines an alternative text description of the image.                                                                                                                                               |                             
-| `placeholder`       | string               |          | Placeholder until image loads. A CSS `background` property, eg: `#3A6073` or `linear-gradient(to right, #4389A2, #5C258D)`. Defaults to `linear-gradient(to right, #3A6073, #16222A)`.                             |                                                                                                             
+| Input                | Type                 | Required | Description                                                                                                                                                                                                    |
+| :------------------- | :------------------- | :------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `[src]`              | string               |    YES   | The image source. eg: 'https://via.placeholder.com/300x300'                                                                                                                                                    |              
+| `[height]`           | number               |    NO    | Image height (Defaults to img src height)                                                                                                                                                                      |
+| `[width]`            | number               |    NO    | Image width (Defaults to img src width)                                                                                                                                                                        |
+| `[alt]`              | string               |    NO    | This attribute defines an alternative text description of the image.                                                                                                                                           |                             
+| `[placeholder]`      | string               |    NO    | Placeholder until image loads. A CSS `background` property, eg: `#3A6073` or `linear-gradient(to right, #4389A2, #5C258D)`. Defaults to `linear-gradient(to right, #3A6073, #16222A)`.                         |                                                                                                             
 
 ### Example:
 
